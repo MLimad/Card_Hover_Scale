@@ -40,9 +40,9 @@ body{
     border: 1px solid white;
     border-radius: 10px;
     position: absolute;
-    display: none;
     z-index: 1;
-     
+   opacity: 0;   
+   transition: .5s;  
 }
 
 .card:hover img{
@@ -108,5 +108,5 @@ body{
 }
 
 .card:hover .border{
-    display: block;
+    opacity: 1;
 }
